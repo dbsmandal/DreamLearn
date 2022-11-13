@@ -71,8 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # DreamLearn
-
 capstone project
+<<<<<<< HEAD
 
 A Music Instrument Learning App
 >>>>>>> dd4402fb378cd141107d06292901cec7e7ecbab7
+=======
+>>>>>>> 4ee8bcc6ca3add2a480000ca8c056053959e94f0
