@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
@@ -34,13 +35,36 @@ const App = () => {
       <GlobalStyle />
       <BrowserRouter>
         <Navbar />
+=======
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Nav from './Components/Nav';
+import Footer from './Components/Footer';
+import Home from './Components/HomePage';
+import Learn from './Components/LearnPage';
+function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Nav />
+>>>>>>> dd4402fb378cd141107d06292901cec7e7ecbab7
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/learn' element={<Learn />} />
         </Routes>
+<<<<<<< HEAD
       </BrowserRouter>
     </ThemeProvider>
   )
 }
 
 export default App
+=======
+        <Footer />
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
+>>>>>>> dd4402fb378cd141107d06292901cec7e7ecbab7
